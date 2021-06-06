@@ -1,14 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
 import './index.css';
 
 import Question from './components/question/question';
-import childQuestions from './data/childQuestions.json';
+
 import adultQuestions from './data/adultQuestions.json';
+import childQuestions from './data/childQuestions.json';
 
 ReactDOM.render(
-  <>
-    <Question questions={childQuestions}/>
-  </>,
+  <Router>
+      <Switch>
+          <Route path="/adults">
+              <Question questions={adultQuestions}/>
+          </Route>
+          <Route path="/children">
+              <Question questions={childQuestions}/>
+          </Route>
+      </Switch>
+  </Router>,
   document.getElementById('root')
 );

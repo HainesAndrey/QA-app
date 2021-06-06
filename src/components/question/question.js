@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 
 import './style.css';
 
-const Question = (props) => {
-
-    const questions = props.questions
+const Question = ({questions}) => {
 
     const [selectedItem, setSelectedItem] = useState(0);
     const [activeItem, setActiveItem] = useState('');
