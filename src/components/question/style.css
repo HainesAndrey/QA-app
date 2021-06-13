@@ -174,11 +174,11 @@ label:focus-within {
     
     .main__content-radio {
         height: 75px;
-        width: 370px;
+        width: 380px;
     }
 
     label {
-        width: 370px;
+        width: 380px;
         height: 75px;
         font-size: 17px;
     }
