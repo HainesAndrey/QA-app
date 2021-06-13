@@ -160,20 +160,20 @@ label:focus-within {
 @media (max-width: 1280px) {
 
     .main__content {
-        width: 1200px;
+        width: 1000px;
     }
 
     .main__content-heading {
         margin: 0;
-        width: 1200px;
+        width: 1000px;
     }
     
     .main__content-radio {
-        width: 580px;
+        width: 480px;
     }
 
     label {
-        width: 580px;
+        width: 480px;
     }
 
     .main__content-answers {
