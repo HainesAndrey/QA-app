@@ -159,23 +159,29 @@ label:focus-within {
 @media (max-width: 1280px) {
 
     .main__content {
-        width: 1000px;
+        width: 950px;
     }
 
     .main__content-heading {
         margin: 0;
-        width: 1000px;
+        width: 950px;
+      
+    }
+
+    .main__content-title {
+        font-size: 45px;
     }
     
     .main__content-radio {
-        width: 480px;
+        width: 460px;
     }
 
     label {
-        width: 480px;
+        width: 460px;
+        font-size: 25px;
     }
 
     .main__content-answers {
-        margin: 80px 0px 0px 40px;
+        margin: 80px 0px 0px 0px;
     }
 }
