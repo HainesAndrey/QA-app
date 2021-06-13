@@ -108,8 +108,7 @@ body {
 }
 
 .main__content-radio {
-    margin-bottom: 40px;
-    margin-right: 40px;
+    margin: 0px 20px 20px 0px;
     height: 120px;
     width: 810px;
     border-radius: 15px;    
