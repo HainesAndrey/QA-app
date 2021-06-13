@@ -59,8 +59,9 @@ body {
     display: grid;
     grid-template-columns: 2fr 2fr;
     align-items: center;
-    margin: 150px auto 80px auto;
+    margin: 150px 0px 80px 0px;
     background: white;
+    width: 1650px;
 }
 
 .main__content-btn {
