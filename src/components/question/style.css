@@ -185,6 +185,7 @@ label:focus-within {
     }
 
     .main__content-answers {
+        width: 800px;
         margin: 40px 0px 0px 0px;
     }
 }
