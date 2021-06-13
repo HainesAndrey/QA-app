@@ -59,7 +59,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 2fr;
     align-items: center;
-    margin: 150px 0px 80px 40px;
+    margin: 150px auto 80px auto;
 }
 
 .main__content-btn {
