@@ -167,16 +167,18 @@ label:focus-within {
     }
 
     .main__content-title {
-        font-size: 45px;
+        font-size: 35px;
     }
     
     .main__content-radio {
+        height: 75px;
         width: 320px;
     }
 
     label {
-        width: 260px;
-        font-size: 25px;
+        width: 320px;
+        height: 75px;
+        font-size: 17px;
     }
 
     .main__content-answers {
