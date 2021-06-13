@@ -15,10 +15,10 @@ import childQuestions from './data/block3/childQuestions.json';
 ReactDOM.render(
   <Router>
       <Switch>
-          <Route path="/adults">
+          <Route path="/block3/adults">
               <Question questions={adultQuestions}/>
           </Route>
-          <Route path="/children">
+          <Route path="/block3/children">
               <Question questions={childQuestions}/>
           </Route>
       </Switch>
