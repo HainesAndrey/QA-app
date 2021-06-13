@@ -9,8 +9,8 @@ import './index.css';
 
 import Question from './components/question/question';
 
-import adultQuestions from './data/adultQuestions.json';
-import childQuestions from './data/childQuestions.json';
+import adultQuestions from './data/block3/adultQuestions.json';
+import childQuestions from './data/block3/childQuestions.json';
 
 ReactDOM.render(
   <Router>
